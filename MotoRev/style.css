@@ -273,8 +273,68 @@ font-size: larger;
     #fa-icon {
       color: #ffffff;
     }
-   
+     
 
+/* -----------------------contact-container--------------------------------- */
+.container-sec-contact {
+  display: flex;
+}
+/* -----------------------img-contcact-page------------------- */
+.col2-sect-contact {
+padding: 60px;
+}
+.col2-sect-contact p{
+color: #ffffff;
+text-align: justify;
+}
+h3  {
+  color: #fffcfc;
+}
+li {
+  color: #fffcfc;
+}
+.fa-solid {
+  color: #ffffff;
+}
+/* ---------------------contact-form---------------- */
+.col1-sect-contact {
+padding: 60px;
+}
+
+.contact-form {
+    padding: 139px;
+    width: 74%;
+    background-image: url(background.jpg) ;
+    color: #ffffff;
+}
+form {
+  background-color: rgb(0, 0, 0, 0.7);
+    padding: 33px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ce0f0f;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color:#421e1e;
+}
     @media (max-width: 500px) {
       .gallery img {
         height: 120px;
@@ -343,8 +403,10 @@ font-size: larger;
               width: 367px;
         height: 334px;
     }
+      
    }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
+ 
     .our-quality-container {
         color: #ffffff;
         text-align: center;
@@ -355,6 +417,39 @@ font-size: larger;
         padding: 113px;
         background-image: url(background.jpg);
     }
+   
+}
+   
+   @media screen and (max-width: 700px) {
+.container-sec-contact {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
+     .contact-form {
+    padding: 0px;
+    width: 100%;
+    background-image: url(background.jpg);
+    color: #ffffff;
+}
+    }
+        @media screen and (max-width: 1500px) {
+    .col1-sect-contact {
+    padding: 0;
+}
+     .col2-sect-contact {
+padding: 25px;
+}
+.container-sec-contact {
+  display: flex;
   
+}
+
+.contact-form {
+              padding: 82px;
+        width: 100%;
+        background-image: url(background.jpg);
+        color: #ffffff;
+    
+    }
+    }
